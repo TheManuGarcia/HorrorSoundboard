@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Horror Soundboard</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="keys">
+
+        <!--Insert data attributes to hook up data-keys with audios -->
+        <!--Enter the keycode for the pressed keys-->
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="effect">cat</span>
+        </div>
+
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="effect">clock</span>
+        </div>
+
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="effect">cat</span>
+        </div>
+
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="effect">cat</span>
+        </div>
+
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="effect">cat</span>
+        </div>
+
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="effect">cat</span>
+        </div>
+
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="effect">cat</span>
+        </div>
+
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="effect">cat</span>
+        </div>
+
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="effect">cat</span>
+        </div>
+
+    </div>
+
+    <!--The audio sound that will get played once a key is pressed-->
+    <audio data-key="65" src="soundeffects/cat.mp3"></audio>
+    <audio data-key="83" src="soundeffects/clock.mov"></audio>
+    <audio data-key="68" src="soundeffects/cat.mp3"></audio>
+    <audio data-key="70" src="soundeffects/cat.mp3"></audio>
+    <audio data-key="71" src="soundeffects/cat.mp3"></audio>
+    <audio data-key="72" src="soundeffects/cat.mp3"></audio>
+    <audio data-key="74" src="soundeffects/cat.mp3"></audio>
+    <audio data-key="75" src="soundeffects/cat.mp3"></audio>
+    <audio data-key="76" src="soundeffects/cat.mp3"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
